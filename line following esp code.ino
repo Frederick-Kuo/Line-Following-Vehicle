@@ -56,14 +56,14 @@ void loop()
   {
     if (error<0)
     {
-      angle=66;
+      angle=106;
       left=-110;
       right=-100;
     }
 
     if (error>0)
     {
-      angle=106;
+      angle=66;
       left=-100;
       right=-110;
     }
